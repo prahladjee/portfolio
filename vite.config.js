@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './', // Ensures relative asset paths work on GitHub Pages and all free hosts
+  base: '/portfolio/', // Exact base path for https://prahladjee.github.io/portfolio/
   build: {
     outDir: 'dist',
   }
