@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prahlad Jee — Software Engineer & Data Engineer</title>
+  <meta name="description" content="Portfolio of Prahlad Jee, Software Engineer & Data Engineer specializing in Java, Spring Boot, Data Pipelines, PostgreSQL, Apache Solr, and Python AI applications." />
+  
+  <!-- CSS Stylesheets -->
+
+  <!-- Lucide Icons Library -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script type="module" crossorigin src="/assets/index-yqJBSbBN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BDkosV0s.css">
+</head>
+<body>
+
+  <!-- WebGL 3D Canvas Background -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Application UI Overlays -->
+  <div id="app-container">
+
+    <!-- Fixed Header & Glass HUD Nav -->
+    <header id="header-nav" class="interactive-ui">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-icon">
+          <i data-lucide="cpu"></i>
+        </div>
+        <span>PRAHLAD JEE</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#architecture" class="nav-link">Architecture</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Sound FX Mute/Unmute Toggle -->
+        <button id="sound-toggle-btn" class="icon-btn" title="Toggle UI Sound FX">
+          <i data-lucide="volume-2"></i>
+        </button>
+
+        <a href="https://wa.me/919060707325?text=Hi%20Prahlad,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="btn-primary" style="background: linear-gradient(135deg, #25D366, #128C7E); color: #fff;">
+          <i data-lucide="message-circle"></i> WhatsApp Me
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="hero">
+        <div class="hero-content interactive-ui">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>SOFTWARE ENGINEER & DATA ENGINEER</span>
+          </div>
+
+          <h1 class="hero-title">
+            PRAHLAD <span class="gradient-text">JEE</span>
+          </h1>
+
+          <p class="hero-subtext" id="bio-tagline">
+            Building scalable software systems, backend services, 2 Cr+ record data pipelines, enterprise SaaS apps, and intelligent applications.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <i data-lucide="layers"></i> Explore Projects
+            </a>
+            <a href="https://wa.me/919060707325" target="_blank" class="btn-secondary">
+              <i data-lucide="message-square"></i> WhatsApp: +91-9060707325
+            </a>
+          </div>
+
+          <!-- Hero Metrics Stats -->
+          <div class="hero-stats" id="hero-stats-container">
+            <!-- Rendered by main.js -->
+          </div>
+        </div>
+
+        <!-- 3D Scene Controls HUD Panel -->
+        <div class="scene-hud-card glass-panel interactive-ui">
+          <div class="hud-header">
+            <div class="hud-title">
+              <i data-lucide="sliders"></i> 3D WEBGL CONTROLS
+            </div>
+            <span class="mono-tag">LIVE CANVAS</span>
+          </div>
+
+          <div class="hud-control-group">
+            <div class="hud-label">
+              <span>Color Theme & Lighting Presets</span>
+            </div>
+            <div class="theme-options" id="theme-options">
+              <!-- Theme chips rendered dynamically -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// PROFESSIONAL PROFILE</span>
+          <h2 class="section-title">Software & Data Engineering Expertise</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="avatar-wrapper interactive-ui">
+            <img src="/assets/prahlad_jee-BwIEWRvM.jpg" alt="Prahlad Jee Software Engineer Photo" class="avatar-img" id="bio-avatar" />
+          </div>
+
+          <div class="about-text-card glass-panel interactive-ui">
+            <h3 class="gradient-text" style="font-size: 1.8rem;" id="bio-name">Prahlad Jee</h3>
+            <p class="mono-tag" id="bio-role">Software Engineer & Data Engineer</p>
+            <p class="bio-paragraph" id="bio-description">
+              Software Engineer and Data Engineer focused on building reliable software applications and scalable data-processing solutions. Experienced across the full application lifecycle — from requirements and database design to high-volume API data pipelines, search indexing, and production troubleshooting.
+            </p>
+
+            <!-- Philosophy Callout -->
+            <div style="padding: 1rem; border-left: 3px solid var(--primary-color); background: rgba(0,243,255,0.05); border-radius: 4px; margin-top: 0.5rem;">
+              <span class="mono-tag" style="display:block; margin-bottom: 0.25rem;">DEVELOPMENT PHILOSOPHY</span>
+              <p style="font-size: 0.95rem; font-style: italic; color: var(--text-primary);" id="bio-philosophy">
+                "Build simple. Solve problems. Optimize when necessary. Keep learning."
+              </p>
+            </div>
+
+            <div class="bio-highlights">
+              <div class="highlight-item">
+                <i data-lucide="code" class="highlight-icon"></i>
+                <span>Java & Spring Boot</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="layers" class="highlight-icon"></i>
+                <span>Data Pipelines (2 Cr+ Records)</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="search" class="highlight-icon"></i>
+                <span>Apache Solr Search</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="database" class="highlight-icon"></i>
+                <span>PostgreSQL / MS SQL</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="cpu" class="highlight-icon"></i>
+                <span>Python & Offline AI (Whisper)</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="shield-check" class="highlight-icon"></i>
+                <span>Production Troubleshooting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// FEATURED WORK</span>
+          <h2 class="section-title">Data Pipelines & Enterprise Projects</h2>
+          <p class="section-description">
+            Explore large-scale API batch pipelines, offline AI transcribers, Apache Solr search integrations, and enterprise microservices built by Prahlad Jee.
+          </p>
+        </div>
+
+        <!-- Filter Pills -->
+        <div class="project-filters interactive-ui">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="data">Data Pipelines</button>
+          <button class="filter-btn" data-filter="search">Search & Backend</button>
+          <button class="filter-btn" data-filter="ai">AI & Python</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Rendered by main.js -->
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE SECTION -->
+      <section id="architecture">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// SYSTEM DESIGN</span>
+          <h2 class="section-title">Architecture & Development Approach</h2>
+          <p class="section-description">
+            Clean layer separation ensures applications are maintainable, testable, secure, and easy to scale.
+          </p>
+        </div>
+
+        <div class="glass-panel interactive-ui" style="padding: 2.5rem; max-width: 900px; margin: 0 auto; text-align: center;">
+          <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem;" class="gradient-text">Layered Enterprise Backend Architecture</h3>
+
+          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+            <div style="padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); border-radius: var(--radius-sm);">
+              <i data-lucide="layout" style="color: var(--primary-color);"></i>
+              <div style="font-size: 0.85rem; margin-top: 0.25rem;">Client / React</div>
+            </div>
+            <i data-lucide="arrow-right" style="color: var(--primary-color);"></i>
+
+            <div style="padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); border-radius: var(--radius-sm);">
+              <i data-lucide="globe" style="color: var(--primary-color);"></i>
+              <div style="font-size: 0.85rem; margin-top: 0.25rem;">REST API</div>
+            </div>
+            <i data-lucide="arrow-right" style="color: var(--primary-color);"></i>
+
+            <div style="padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); border-radius: var(--radius-sm);">
+              <i data-lucide="cpu" style="color: var(--primary-color);"></i>
+              <div style="font-size: 0.85rem; margin-top: 0.25rem;">Controller & Service Layer</div>
+            </div>
+            <i data-lucide="arrow-right" style="color: var(--primary-color);"></i>
+
+            <div style="padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); border-radius: var(--radius-sm);">
+              <i data-lucide="database" style="color: var(--primary-color);"></i>
+              <div style="font-size: 0.85rem; margin-top: 0.25rem;">PostgreSQL / Solr Core</div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; text-align: left; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1.5rem;">
+            <div>
+              <h4 style="color: var(--primary-color); margin-bottom: 0.4rem;">High-Volume Data Processing</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary);">Batching, streaming APIs, and complete JSON response auditing for auditing and zero data loss.</p>
+            </div>
+            <div>
+              <h4 style="color: var(--primary-color); margin-bottom: 0.4rem;">Search Engine Optimization</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary);">Apache Solr core management, DocValues tuning, schema field mapping, and rapid reindexing pipelines.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// TECHNICAL EXPERTISE</span>
+          <h2 class="section-title">Core Skills & Stack</h2>
+        </div>
+
+        <div class="skills-container" id="skills-container">
+          <!-- Rendered by main.js -->
+        </div>
+      </section>
+
+      <!-- EDUCATION SECTION -->
+      <section id="education">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// ACADEMIC QUALIFICATIONS</span>
+          <h2 class="section-title">Education Background</h2>
+        </div>
+
+        <div class="skills-container" id="education-container" style="max-width: 900px; margin: 0 auto;">
+          <!-- Rendered by main.js -->
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <div class="section-title-wrap">
+          <span class="mono-tag section-subtitle">// LET'S CONNECT</span>
+          <h2 class="section-title">Contact Prahlad Jee</h2>
+          <p class="section-description">
+            Choose your preferred communication channel below to send a direct message, chat on WhatsApp, or send an email transmission.
+          </p>
+        </div>
+
+        <div class="contact-grid interactive-ui">
+          <!-- Direct Contact Details -->
+          <div class="contact-info-card glass-panel interactive-ui">
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Direct Messaging Channels</h3>
+
+            <!-- Instant WhatsApp Action -->
+            <a href="https://wa.me/919060707325?text=Hi%20Prahlad,%20I%20would%20like%20to%20discuss%20a%20project%20/%20opportunity!" target="_blank" class="contact-method" style="text-decoration: none; border-left: 3px solid #25D366; padding-left: 0.75rem; background: rgba(37,211,102,0.06); border-radius: 4px;">
+              <div class="contact-icon" style="background: rgba(37,211,102,0.2); color: #25D366;"><i data-lucide="message-circle"></i></div>
+              <div class="contact-details">
+                <span class="contact-label" style="color: #25D366; font-weight: 700;">WhatsApp Instant Chat</span>
+                <span class="contact-value">+91-9060707325 (Click to Chat)</span>
+              </div>
+            </a>
+
+            <!-- Direct Email Action -->
+            <a href="mailto:prahladjee433@gmail.com?subject=Portfolio%20Inquiry%20for%20Prahlad%20Jee" class="contact-method" style="text-decoration: none;">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div class="contact-details">
+                <span class="contact-label">Direct Email Inbox</span>
+                <span class="contact-value">prahladjee433@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- Direct Phone Action -->
+            <a href="tel:+919060707325" class="contact-method" style="text-decoration: none;">
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
+              <div class="contact-details">
+                <span class="contact-label">Phone Call</span>
+                <span class="contact-value">+91-9060707325</span>
+              </div>
+            </a>
+
+            <div class="contact-method">
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">India (Open for Remote & Relocation)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Web Form -->
+          <form id="contact-form" class="contact-form glass-panel interactive-ui">
+            <!-- Web3Forms API Hidden Fields (Free Email Delivery directly to prahladjee433@gmail.com) -->
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE" id="web3forms-key" />
+            <input type="hidden" name="subject" value="New Portfolio Message for Prahlad Jee" />
+            <input type="hidden" name="from_name" value="Prahlad Jee 3D Portfolio" />
+
+            <div class="form-group interactive-ui">
+              <label class="form-label" for="sender-name">Your Name</label>
+              <input type="text" id="sender-name" name="name" class="form-input interactive-ui" placeholder="e.g. Hiring Manager / Recruiter" required />
+            </div>
+
+            <div class="form-group interactive-ui">
+              <label class="form-label" for="sender-email">Your Email Address</label>
+              <input type="email" id="sender-email" name="email" class="form-input interactive-ui" placeholder="e.g. contact@company.com" required />
+            </div>
+
+            <div class="form-group interactive-ui">
+              <label class="form-label" for="sender-message">Message Details</label>
+              <textarea id="sender-message" name="message" class="form-textarea interactive-ui" placeholder="Discuss opportunities, projects, or technical collaboration..." required></textarea>
+            </div>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="submit" class="btn-primary" style="flex: 1; justify-content: center;">
+                <i data-lucide="send"></i> Send Email Message
+              </button>
+
+              <button type="button" id="whatsapp-send-btn" class="btn-secondary" style="background: rgba(37,211,102,0.15); border-color: #25D366; color: #25D366;">
+                <i data-lucide="message-circle"></i> Send via WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Sticky WhatsApp Widget -->
+    <a href="https://wa.me/919060707325?text=Hi%20Prahlad,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="floating-whatsapp-btn interactive-ui" title="Chat with Prahlad Jee on WhatsApp">
+      <i data-lucide="message-circle"></i>
+      <span class="whatsapp-tooltip">Chat with Prahlad</span>
+    </a>
+
+    <!-- Project Detail Modal -->
+    <div id="project-modal" class="modal-overlay">
+      <div class="modal-container glass-panel interactive-ui">
+        <button id="modal-close-btn" class="icon-btn modal-close-btn">
+          <i data-lucide="x"></i>
+        </button>
+        <img id="modal-image" src="" alt="Project Showcase" class="modal-image" />
+        <h2 id="modal-title" style="font-size: 2rem; margin-bottom: 0.5rem;">Project Title</h2>
+        <div id="modal-tags" class="project-tags" style="margin-bottom: 1rem;"></div>
+        <p id="modal-description" class="bio-paragraph" style="margin-bottom: 1.5rem;"></p>
+        <div id="modal-stats" class="modal-stats"></div>
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+          <a id="modal-demo-link" href="https://wa.me/919060707325" target="_blank" class="btn-primary" style="background: linear-gradient(135deg, #25D366, #128C7E); color: #fff;">
+            <i data-lucide="message-circle"></i> Discuss via WhatsApp
+          </a>
+          <a id="modal-github-link" href="mailto:prahladjee433@gmail.com" target="_blank" class="btn-secondary">
+            <i data-lucide="mail"></i> Email Prahlad
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notification Toast Container -->
+    <div id="toast-container"></div>
+  </div>
+
+  <!-- Entry Script (ES Modules) -->
+</body>
+</html>
