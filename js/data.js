@@ -182,7 +182,7 @@ export const PORTFOLIO_DATA = {
   ],
 
   skills: [
-    { name: "Java 17 & Spring Boot Ecosystem", category: "backend", level: 98, icon: "code", highlight: true },
+    { name: "Java 21 & Spring Boot Ecosystem", category: "backend", level: 98, icon: "code", highlight: true },
     { name: "Batch Data Pipelines (2 Cr+ Records)", category: "data", level: 96, icon: "layers", highlight: true },
     { name: "Enterprise SaaS & E-Commerce Systems", category: "backend", level: 95, icon: "shopping-bag", highlight: true },
     { name: "REST API Design & OAuth2 Security", category: "backend", level: 95, icon: "shield-check", highlight: true },
@@ -199,8 +199,8 @@ export const PORTFOLIO_DATA = {
   education: [
     {
       degree: "Master of Computer Applications (MCA)",
-      institution: "Mewar University",
-      period: "2023 – Present",
+      institution: "Manglayatan University",
+      period: "2020",
       details: "Specializing in Advanced Software Architecture, Distributed Data Engineering, and AI Applications."
     },
     {
