@@ -423,12 +423,17 @@ section {
   color: var(--text-secondary);
 }
 
-/* 3D Scene Controls HUD (Hero Card) */
+/* 3D Scene Controls HUD (Floating in Right Upper Corner) */
 .scene-hud-card {
-  padding: 1.5rem;
+  position: absolute;
+  top: calc(var(--nav-height) + 1.5rem);
+  right: 2rem;
+  width: 330px;
+  padding: 1.25rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
+  z-index: 50;
 }
 
 .hud-header {
