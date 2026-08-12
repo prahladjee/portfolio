@@ -254,12 +254,34 @@ class App {
   }
 
   bindEvents() {
+    const mobileToggle = document.getElementById('mobile-menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    // Mobile Hamburger Menu Toggle
+    if (mobileToggle && navMenu) {
+      mobileToggle.addEventListener('click', () => {
+        soundFx.playClick();
+        const isOpen = navMenu.classList.toggle('mobile-open');
+        mobileToggle.innerHTML = `<i data-lucide="${isOpen ? 'x' : 'menu'}"></i>`;
+        if (window.lucide) window.lucide.createIcons();
+      });
+    }
+
     // Navigation Links Smooth Scroll + 3D Camera Section Travel
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('mouseenter', () => soundFx.playHover());
       link.addEventListener('click', (e) => {
         e.preventDefault();
         soundFx.playTransition();
+
+        // Close mobile drawer when link is clicked
+        if (navMenu) {
+          navMenu.classList.remove('mobile-open');
+          if (mobileToggle) {
+            mobileToggle.innerHTML = `<i data-lucide="menu"></i>`;
+            if (window.lucide) window.lucide.createIcons();
+          }
+        }
 
         document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
         link.classList.add('active');
